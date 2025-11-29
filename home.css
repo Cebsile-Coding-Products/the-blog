@@ -1,0 +1,57 @@
+body {
+    font-family: "Lora";
+    font-size: 20px;
+    color: #1b6223;
+    line-height: 1.25;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%
+}
+.column {
+    display: flex;
+    justify-content: center;
+}
+#heading-container {
+    font-family: "The Seasons";
+    margin: 15px;
+}
+.option-container {
+    width: 500px;
+    height: max-content;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, .14);
+    border-radius: 5px;
+    text-align: center;
+}
+.option-container p {
+    font-family: "Montserrat";
+}
+.option-container img {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+}
+a {
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: #1b6223;
+}
+p {
+    font-weight: 400;
+    margin: 10 20 20 20;
+}
+h2, h3 {
+    font-weight: 600;
+    margin: 15 5 5 5;
+}
