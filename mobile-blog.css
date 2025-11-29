@@ -1,10 +1,10 @@
 @font-face {
     font-family: "The-Seasons";
-    src: url('fonts/TheSeasons-Regular.otf') format('opentype');
+    src: url('TheSeasons-Regular.ttf') format('truetype');
     font-family: "Lora";
-    src: url('fonts/Lora-Regular.ttf') format('truetype');
+    src: url('Lora-Regular.ttf') format('truetype');
     font-family: "Montserrat";
-    src: url('fonts/Montserrat-Regular.ttf') format('truetype')
+    src: url('Montserrat-Regular.ttf') format('truetype')
 }
 @keyframes fade-in-down {
     from {
@@ -369,3 +369,4 @@ a {
 .topic-container {
     width: 330px;
 }
+
