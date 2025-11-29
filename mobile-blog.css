@@ -12,7 +12,7 @@
 }
 @keyframes fade-in-down {
     from {
-        translate: 0 -40px;
+        translate: 0 -45px;
         opacity: 0;
     }
     to {
@@ -373,6 +373,7 @@ a {
 .topic-container {
     width: 330px;
 }
+
 
 
 
