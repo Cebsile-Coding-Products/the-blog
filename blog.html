@@ -30,6 +30,7 @@
         </script>
     </head>
     <body>
+        <div id="pre-loader"></div>
         <nav id="navbar-container" class="container" onclick="unshow(); unrotate()">
             <div id="navbar-row" class="row">
                 <div id="logo-container" class="container">
@@ -471,4 +472,10 @@
             </div>
         </footer>
     </body>
+    <script>
+        loader = document.getElementById("pre-loader");
+        window.addEventListener('load', function() {
+            loader.style.display = "none";
+        })
+    </script>
 </html>
