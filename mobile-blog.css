@@ -27,7 +27,7 @@
 }
 @keyframes fade-out-image {
     100% {
-        scale: 3;
+        scale: 2.5;
     }
 }
 @keyframes color-switch {
@@ -49,9 +49,10 @@ html {
 body {
     font-family: "Lora";
     font-weight: 400;
-    font-size: 24px;
+    font-size: 18px;
     color: #000000c2;
     line-height: 1.25;
+    word-break: break-word;
     margin: 0;
     transition: 0.4s;
 }
@@ -93,6 +94,7 @@ p::selection {
     font-family: "Montserrat";
     font-weight: bold;
     color: white;
+    padding-right: 20px;
     animation: color-switch-text linear forwards;
     animation-timeline: view();
     animation-range-start: 650px;
@@ -100,7 +102,7 @@ p::selection {
 }
 svg {
     width: 100%;
-    height: 32px;
+    height: 38px;
 }
 #navbar-container svg g {
     animation: color-switch-text linear forwards;
@@ -115,7 +117,8 @@ a {
 }
 #navbar-row {
     justify-content: space-between;
-    padding: 15 50 15 50;
+    padding: 15 0 15 0;
+    width: 82vw;
 }
 #homelink-container {
     cursor: pointer;
@@ -159,7 +162,8 @@ a {
 #heading-container {
     position: absolute;
     flex-direction: column;
-    padding: 0 50;
+    width: 82vw;
+    bottom: 220px;
     animation: fade-out-container linear forwards;
     animation-timeline: view();
     animation-range: exit;
@@ -189,7 +193,7 @@ a {
 }
 #title, #name {
     font-family: "Montserrat";
-    font-size: 20px;
+    font-size: 24px;
     margin: 0 0;
 }
 #name {
@@ -197,16 +201,17 @@ a {
 }
 #descriptor {
     font-family: "The-Seasons";
-    font-size: 52px;
+    font-size: 58px;
+    line-height: 1.15;
     margin: 30 0 40 0;
     transition-delay: 1s;
 }
 #content-container {
-    margin-top: 120px;
+    margin-top: 80px;
     margin-bottom: 100px;
     line-height: 1.6;
 }
-.sub-heading-container, .paragraph-container p, .paragraph-container img {
+.sub-heading-container p, .paragraph-container p, .paragraph-container img {
     animation: fade-in-down linear forwards;
     animation-timeline: view();
     animation-range-start: cover;
@@ -224,24 +229,26 @@ a {
 #content-container img {
     width: 100%;
     margin: 30 0;
+    opacity: 0;
 }
 #content-container .container {
     flex-direction: column;
-    margin: 0 150;
-    width: 48%;
+    width: 82vw;
 }
 .sub-heading-container {
-    font-family: "The-Seasons";
-    font-size: 28px;
+    font-family: "Montserrat";
+    font-size: 24px;
+    font-weight: bold;
     line-height: 1.35;
     color: #7e5f2b;
 }
 .sub-heading-container p {
     margin: 10 0;
+    opacity: 0;
 }
 .paragraph-container p {
     margin: 35 0;
-    opacity: 0.8;
+    opacity: 0;
 }
 .paragraph-container a, #references a {
     color: #000000c2;
@@ -251,21 +258,24 @@ a {
 .paragraph-container a:hover, #references a:hover {
     color: #1b6223;
 }
+#conclusion {
+    margin-top: 5px;
+}
 #references {
-    padding-top: 70px;
+    padding-top: 50px;
 }
 #sub-heading-7 {
     margin-bottom: 30px;
 }
 #footer-container {
     font-family: "The-Seasons";
-    font-size: 22px;
+    font-size: 24px;
 }
 #lower-footer-row {
     background-color: #1b6223;
     color: #ffffff;
     justify-content: space-between;
-    padding: 5 60 5 50;
+    padding: 5 50 5 40;
 }
 #lower-footer-row p {
     margin: 15 0 15 0;
@@ -332,7 +342,7 @@ a {
     display: flex;
     align-items: center;
     width: 100%;
-    height: 80px;
+    height: 70px;
     transition: 0.4s;
 }
 .option-container:hover, .option-container:active {
@@ -346,15 +356,12 @@ a {
 .option-container a {
     width: -webkit-fill-available;
     height: -webkit-fill-available;
-    padding: 28 30 28 20;
+    padding: 25 30 25 20;
     color: black;
     width: 395px;
 }
 #topic-1, #topic-3 {
-    padding: 20 20;
-}
-#topic-5 {
-    padding: 30 20;
+    padding: 15 20;
 }
 .option-container:hover a {
     color: white;
@@ -371,7 +378,3 @@ a {
 .topic-container {
     width: 330px;
 }
-
-
-
-
