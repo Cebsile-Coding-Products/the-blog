@@ -12,7 +12,7 @@
 }
 @keyframes fade-in-down {
     from {
-        translate: 0 -50px;
+        translate: 0 -35px;
         opacity: 0;
     }
     to {
@@ -97,8 +97,8 @@ p::selection {
     font-size: 24px;
     animation: color-switch linear forwards;
     animation-timeline: view();
-    animation-range-start: 1100px;
-    animation-range-end: 1250px;
+    animation-range-start: 175vh;
+    animation-range-end: 185vh;
 }
 #navbar-container a {
     font-family: "Montserrat";
@@ -107,8 +107,8 @@ p::selection {
     padding-right: 20px;
     animation: color-switch-text linear forwards;
     animation-timeline: view();
-    animation-range-start: 650px;
-    animation-range-end: 1250px;
+    animation-range-start: 110vh;
+    animation-range-end: 210vh;
 }
 svg {
     width: 100%;
@@ -117,8 +117,8 @@ svg {
 #navbar-container svg g {
     animation: color-switch-text linear forwards;
     animation-timeline: view();
-    animation-range-start: 650px;
-    animation-range-end: 1250px;
+    animation-range-start: 110vh;
+    animation-range-end: 210vh;
 }
 a {
     display: block;
@@ -173,7 +173,7 @@ a {
     position: absolute;
     flex-direction: column;
     width: 82vw;
-    bottom: 220px;
+    bottom: 40vh;
     animation: fade-out-container linear forwards;
     animation-timeline: view();
     animation-range: exit;
@@ -202,7 +202,7 @@ a {
 }
 #descriptor {
     font-family: "The-Seasons";
-    font-size: 58px;
+    font-size: 54px;
     line-height: 1.15;
     margin: 30 0 40 0;
     transition-delay: 1s;
