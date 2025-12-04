@@ -97,7 +97,7 @@ p::selection {
     animation: color-switch linear forwards;
     animation-timeline: view();
     animation-range-start: 170vh;
-    animation-range-end: 185vh;
+    animation-range-end: 190vh;
 }
 #navbar-container a {
     font-family: "Montserrat";
@@ -106,8 +106,8 @@ p::selection {
     padding-right: 20px;
     animation: color-switch-text linear forwards;
     animation-timeline: view();
-    animation-range-start: 90vh;
-    animation-range-end: 185vh;
+    animation-range-start: 84vh;
+    animation-range-end: 190vh;
 }
 svg {
     width: 100%;
@@ -116,7 +116,7 @@ svg {
 #navbar-container svg g {
     animation: color-switch-text linear forwards;
     animation-timeline: view();
-    animation-range-start: 90vh;
+    animation-range-start: 84vh;
     animation-range-end: 185vh;
 }
 a {
@@ -172,7 +172,7 @@ a {
     position: absolute;
     flex-direction: column;
     width: 82vw;
-    bottom: 18vh;
+    bottom: 15vh;
     animation: fade-out-container linear forwards;
     animation-timeline: view();
     animation-range: exit;
