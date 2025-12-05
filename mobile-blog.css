@@ -128,7 +128,7 @@ a {
 }
 #navbar-row {
     justify-content: space-between;
-    padding: 2.4vh 0 1.8vh 0;
+    padding: 2.4vh 0 1.4vh 0;
     width: 82vw;
 }
 #homelink-container {
@@ -194,7 +194,7 @@ a {
 }
 #title, #name {
     font-family: "Montserrat";
-    font-size: 3vh;
+    font-size: 3.2vh;
     margin: 0 0;
 }
 #name {
@@ -203,7 +203,7 @@ a {
 #descriptor {
     margin: 5.5vh 0;
     font-family: "The-Seasons";
-    font-size: 6.2vh;
+    font-size: 6.4vh;
     line-height: 1.15;
     transition-delay: 1s;
 }
