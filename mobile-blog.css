@@ -96,7 +96,6 @@ p::selection {
     left: 0;
     right: 0;
     width: 100%;
-    height: auto;
     background-color: transparent;
     animation: color-switch linear forwards;
     animation-timeline: view();
@@ -198,7 +197,7 @@ a {
 #title, #name {
     font-family: "Montserrat";
     font-size: 3.2vh;
-    margin: 0 0;
+    margin: 0;
 }
 #name {
     transition-delay: 2s;
@@ -256,7 +255,7 @@ a {
     text-decoration: underline;
     display: inline;
 }
-.paragraph-container a:hover, #references a:hover, .paragraph-container a:active, #references a:active {
+.paragraph-container a:hover, .paragraph-container a:active {
     color: #1b6223;
 }
 #conclusion {
@@ -280,7 +279,7 @@ a {
     z-index: 200;
 }
 #lower-footer-row p {
-    margin: 15 0 15 0;
+    margin: 15px 0;
 }
 #upper-footer-row {
     align-items: flex-end;
@@ -314,6 +313,7 @@ a {
     background-color: #ffffff;
     box-shadow: 0 5px 8px 3px rgba(0,0,0,.14);
     position: absolute;
+    right: 0;
     display: none;
     opacity: 0;
     transition-property: display opacity;
@@ -321,7 +321,6 @@ a {
     transition-behavior: allow-discrete;
     translate: 0 60vh;
     overflow-anchor: none;
-    right: 0;
 }
 #hidden-menu-container.active {
     display: block;
